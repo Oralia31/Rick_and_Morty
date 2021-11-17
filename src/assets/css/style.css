@@ -1,0 +1,85 @@
+.panel {
+    width: 100%;
+    height: 100%;
+}
+.texto{
+    color: white;
+ }
+ 
+ h1{
+   font-family: inherit;
+   font-weight: 400;
+   line-height: 1;
+   text-transform: uppercase;
+ }
+ 
+ h1 {
+     font-size: 3.1rem;
+     animation: pulsate 0.11s ease-in-out infinite alternate;  
+     text-align: center;   
+ }
+ 
+ img {
+     width: 250px;
+ }
+ 
+ .encabezado{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   padding: 10px 0 0;
+   background-color: #204d97;
+ }
+ 
+ .filtro {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+ 
+ input#busqueda {
+     width: 59%;
+ }
+ 
+ .card.text-center.mb-4 {
+   margin: 30px;
+   border: 1px solid #204d97;
+ }
+ 
+ .cards {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ .card-body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ #circulo{
+     border-radius: 50%;
+     width: 45px;
+     height: 45px;
+     padding: 6px;
+     border: 1px solid rgb(50, 102, 134);
+     color:rgb(19, 17, 17);
+     text-align: center;
+     margin-bottom: 15px;
+     box-shadow:2px 2px 5px 0px rgba(101, 101, 102, 0.75);
+ }
+ 
+ #cuadrado{
+     width: 260px;
+     padding: 8px;
+     background: #204d97;
+     /* border: 2px solid #204d97; */
+ }
+
+ .pagination {
+   justify-content: center;
+    margin-top: 5px;
+ }
